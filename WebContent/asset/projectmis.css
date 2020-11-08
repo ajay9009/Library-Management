@@ -1,0 +1,443 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("/Library_Management/images/book.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	background-attachment: fixed;
+	 
+}
+
+
+
+.log{
+	text-align: center;
+	padding: 2%;
+	margin-bottom: 5%;
+	background-color: deepskyblue;
+	background-size: 12px; 
+}
+
+.log h1{ 
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-right: 10%;
+	position: static;
+	transition: 1s;
+}
+
+.log img{
+
+	float: left;
+	margin-top: -1%;
+	transition: 1s;
+}
+
+.con{
+	width: 50%;
+	height: 60%;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 15px 40px rgba(1,0,0,1);
+	transition: 1s;
+
+}
+
+.con .left
+{	
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url("/Library_Manage/images/book2.jpg");
+	background-size: cover;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: deepskyblue;
+	transition: 1S;
+}
+
+.con .right{
+	float: right;
+	width: 50%;
+	height: 100%;
+	transition: 1S;
+
+
+}
+
+.formbox{
+	width: 100%;
+	padding: 20% 10%;
+	box-sizing: border-box;
+	height: 100%;
+	background: #fff;
+	border-style: solid;
+	border-color: deepskyblue;
+	transition: 1S;
+
+}
+
+.formbox table{
+	font-weight: bold;
+	color: deepskyblue;
+}
+
+.formbox input
+{
+	width: 100%;
+	margin-bottom: 10%;
+	transition: 1S;
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"]
+{
+	border: none;
+	border-bottom: 2px solid deepskyblue;
+	outline: none;
+	height: 40px;
+	transition: 1S;
+}
+
+.formbox input[type="text"]focus,
+.formbox input[type="password"]focus
+{
+	border-bottom: 2px solid deepskyblue;
+	transition: 1S;
+}
+
+.formbox input[type=submit]
+{
+	right: 30%;
+	width: 15%;
+	height: 20px;
+	position: absolute;
+	border:none;
+	outline: none;
+	color:#fff;
+	background: #262626;
+	font-size: 100%;
+	font-weight: bold;
+	transition: 1s;
+}
+
+.formbox input[type=submit]:hover
+{
+	background: #a6af13;
+
+}
+.formbox button
+{
+	color: #fff;
+	background: maroon;
+	font-size: 100%;
+	font-weight: bold;
+	margin-left: 85%;
+	text-align: center;
+	margin-bottom: 20%;
+	width: 250%;
+	transition: 1S;
+}
+.formbox button:hover
+{
+	background: lightgreen;
+	color: black;
+	font-style: bold;
+
+}
+
+
+.forbutt a
+{
+	position: relative;
+	border: 0% solid blue;
+	outline: none;
+	left: 4%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	color: blue;
+	margin-bottom: 20%;
+	text-align: center;
+	border-radius: 10%;
+	width: 75%;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.forbutt a:hover
+{
+	color: grey;
+}
+
+.regi a
+{
+	margin-left: 18%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 100%;
+	background-color: deepskyblue;
+	padding: 1% 25%;
+	transition: 1s;
+
+}
+
+.regi a:hover
+{
+	color: black;
+	font-weight: bold;
+	background-color: grey;
+}
+
+
+.table p
+{
+	margin-top: -10%;
+	font-size: 190%;
+	font-weight: bold;
+	color: deepskyblue;
+	transition: 1S;
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 700px)
+{
+
+.log{
+	text-align: center;
+	padding: 2%;
+	margin-bottom: 5%;
+	background-color: grey;
+	background: rgba(128,128,128,0.5);
+	background-size: 10%;
+
+}
+
+.log h1{ 
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 110%;
+	color: white;
+	margin-right: 10%;
+	position: static;
+}
+
+.log img{
+
+	float: left;
+	margin-top: -1%;
+	visibility: hidden;
+}
+
+
+.con{
+	width: 70%;
+	height: 40%;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+	margin-top: 20%;
+}
+
+.formbox input
+{
+	width: 100%;
+	margin-bottom: 10%;
+
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"]
+{
+	border: none;
+	border-bottom: 2px solid maroon;
+	outline: none;
+	height: 20px;
+}
+
+.formbox input[type="text"]focus,
+.formbox input[type="password"]focus
+{
+	border-bottom: 2px solid deepskyblue;
+}
+
+.table tr
+{
+	font-size: 50%;
+}
+
+.forbutt a
+{
+	border:2% solid blue;
+	outline: 100%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 50%;
+	color: blue;
+	margin-left: 25%;
+	margin-bottom: 20%;
+	text-align: center;
+	border-radius: 10%;
+	width: 75%;
+	margin-top: 10%;
+	text-decoration: none;
+	transition: 1s;
+	position: relative;
+}
+
+.forbutt a:hover
+{
+	color: red;
+}
+
+.regi a
+{
+	margin-left: 15%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 50%;
+	background-color: teal;
+	padding: 1% 25%;
+	position: relative;
+
+}
+
+.regi a:hover
+{
+	color: black;
+	background-color: grey;
+}
+
+.formbox input[type=submit]
+{
+	position: absolute;
+	color: #fff;
+	background: #262626;
+	font-size: 100%;
+	font-weight: bold;
+	margin-left: 110%;
+	margin-right: -8%;
+	text-align: center;
+	margin-bottom: 20%;
+	width: 20%;
+	height: 3%;
+	transition: 1s;
+}
+.formbox input[type=submit]:hover
+{
+	background: lightgreen;
+	color: black;
+	font-style: bold;
+
+}
+
+.simg p{
+
+	background-image: url("/Library_Manage/images/logo2rat (1).png");
+	width: 100%;
+	height: 20%;
+	background-size: 30%;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: 35%;
+	margin-bottom: -15%;
+}
+
+
+.table p
+{
+	margin-top: -10%;
+	font-size: 80%;
+	font-weight: bold;
+	color: deepskyblue;
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 701px)
+{
+
+
+
+.table tr
+{
+	font-size: 80%;
+}
+
+.formbox button
+{
+	width: 270%;
+	margin-left: 70%;
+}
+
+.forbutt a
+{
+	border:2% solid blue;
+	outline: 100%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 90%;
+	color: blue;
+	margin-left: 27%;
+	margin-bottom: 20%;
+	text-align: center;
+	border-radius: 10%;
+	width: 75%;
+	margin-top: 10%;
+	text-decoration: none;
+}
+
+.forbutt a:hover
+{
+	color: red;
+}
+
+.regi a
+{
+	margin-left: 18%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 80%;
+	background-color: teal;
+	padding: 1% 25%;
+
+}
+
+.regi a:hover
+{
+	color: black;
+	background-color: grey;
+}
+
+}
+
+
+
+
+
+
+

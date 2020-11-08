@@ -1,0 +1,280 @@
+
+
+
+	.header-home{
+	
+		/*background-image: -webkit-linear-gradient(360deg,#faa61f 40%,#ed1847 100%);*/
+		background-color: deepskyblue;
+		background-size: cover;
+		position: relative;
+		padding-top: 160px;
+		margin-top: -20px;
+		padding-bottom: -100px;
+		}
+
+	.col-header-text{
+		
+		color: white;
+	}
+
+	.col-header-text h1
+	{
+		font-size: 60px;
+		line-height: 70px;
+		letter-spacing: 0.05px;
+		color: white;
+	}
+
+	.col-header-text h1 span
+	{
+		font-weight: 600;
+
+	}
+
+	.col-header-text p
+	{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 25px 0 54px;
+		text-align: justify;
+	}
+
+	.col-header-img
+	{
+		right: -20px;
+		left: 500px;
+		top: -400px;
+		z-index: 40;
+		margin-bottom: -300px;
+		position: absolute;
+
+	}
+
+	.col-header-img img-header-lg
+	{
+		
+		position: absolute;
+	}
+
+	.banner_btn
+	{
+		font-size: 14px;
+		line-height: 58px;
+		text-align: center !important;
+		font-family: tahoma;
+		font-weight: 700;
+		width: 220px;
+		height: 60px;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 50px;
+		border: 2px solid transparent;
+		transition: all 0.5s linear;
+		color: #272929;
+		background: white;
+		margin-right: 10px;	 
+	}
+
+	.banner_btn:hover
+	{
+		text-decoration: none;
+		background: orange;
+		color: white;
+	}
+
+	
+
+	.navbar
+	{
+		padding: 24px 0;
+		border-bottom: none !important;
+		transition: all 0.5s ease-in-out;
+
+	}
+
+	.navbar ul li a
+	{
+		color: white !important;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 2px;
+		margin-right: 10px;
+		font-size: 15px;
+		text-align: center;
+		transition: all 0.5s ease-in-out;
+		background: transparent !important;
+	}
+
+	.navbar ul li a:hover, .navbar ul li a:focus
+	{
+		color: white !important;
+		background: black !important;
+		border-radius: 50px;
+
+	}
+
+	.navbar-toggle
+	{
+		border: 1px solid white !important;
+		color: white !important;
+		transition: all 0.5s ease-in; 
+	}
+
+	.icon-bar
+	{
+		color: white !important;
+		background-color: white !important;
+
+	}
+
+	.navbar-toggle:hover
+	{
+		background-color: deepskyblue !important;
+
+	}
+
+	.navbar-inverse .navbar-collapse
+	{
+		background-color: transparent !important;
+
+	}
+
+	.work
+	{
+		border: 1px solid white;
+		border-radius: 50px;
+
+	}
+
+
+	.navbar-inverse
+	{
+		background-color: transparent !important; 
+	}
+
+
+	.logo
+	{
+		margin-left: -10%;
+	}
+	
+	
+	
+
+	 
+
+	@media screen and (max-width: 661px)
+	{
+
+		.navbar ul li a
+		{
+			
+		color: black !important;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 2px;
+		margin-right: 10px;
+		font-size: 15px;
+		text-align: center;
+		transition: all 0.5s ease-in-out;
+		background: white !important;
+		width: 100%;
+		}
+
+
+
+		.navbar ul li a:hover, .navbar ul li a:focus
+	{
+		color: deepskyblue !important;
+		background: black !important;
+		border-radius: 20px;
+
+	}
+
+	.work
+	{
+		border: 1px solid black;
+		border-radius: 0px;
+
+	}
+
+	.img-header-lg
+	{
+		width: 70%;
+		margin-left: 40px;
+	}
+
+	
+	
+
+	}
+
+
+	@media (max-width: 900px)
+	{
+
+		.header-home{
+	
+		background-color: deepskyblue;
+		background-size: cover;
+		position: relative;
+		padding-top: 200px;
+		margin-top: -20px;
+		padding-bottom: -100px;
+		width: 100%;
+			}
+
+	.logo
+	{
+		margin-left: 10%;
+	}
+
+	.col-header-text h1
+	{
+		font-size: 50px;
+		line-height: 50px;
+		letter-spacing: 0.05px;
+		color: white;
+		margin-left: 25px;
+	}
+
+	.col-header-text p
+	{
+		visibility: hidden;
+		margin-bottom: -15%;
+	}
+
+
+	.banner_btn
+	{
+		font-size: 14px;
+		line-height: 58px;
+		text-align: center !important;
+		font-family: tahoma;
+		font-weight: 700;
+		width: 220px;
+		height: 60px;
+		display: block;
+		text-transform: uppercase;
+		border-radius: 50px;
+		border: 2px solid transparent;
+		transition: all 0.5s linear;
+		color: #272929;
+		background: white;
+		margin-left: 70px;
+		margin-bottom: 20px;	 
+	}
+
+	.col-header-img
+	{
+		right: -20px;
+		left: 10px;
+		top: 20px;
+		z-index: 40;
+		margin-bottom: 70px;
+		position: absolute;
+
+	}
+
+
+	}

@@ -1,0 +1,121 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #313131;
+
+}
+
+section
+{
+
+	margin-top: -100px;
+}
+
+.slider
+{
+	width: auto;
+	height: 600px;
+	background: url(/Library_Management/images/invisibleman.jpg);
+	background-size: cover;
+	margin: 100px auto;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide
+{
+	25%{
+		background: url(/Library_Management/images/mountain.jpg);
+		
+	}
+
+	50%{
+		background: url(/Library_Management/images/AnAntarcticMystery.jpg);
+	}
+
+	75%{
+		background: url(/Library_Management/images/starwars.png);
+	}
+
+	100%{
+		background: url(/Library_Management/images/timetravler.png);
+	}
+}
+
+
+	.books
+	{
+		font-size: 60px;
+		font-weight: bolder;
+		background-color: black;
+		font-family: sans-serif;
+		color: orange;
+		animation: books 20s infinite;
+
+	}
+
+	@keyframes books
+{
+	25%{
+		
+		color: red;
+		background-color: yellow;
+	}
+
+	50%{
+		color: black;
+		background-color: orange;
+	}
+
+	75%{
+		color: yellow;
+		background-color: deepskyblue;
+	}
+
+	100%{
+		color: deepskyblue;
+		background-color: grey;
+	}
+}
+
+
+.ll
+{
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: sans-serif;
+	background-color: black;
+	opacity: 0.5;
+	background-size: 10px auto;
+	margin-top: -200px;
+}
+
+.ll a
+{
+	text-decoration: none;
+	transition: 1s;
+}
+
+.ll a:hover
+{
+	color: red;
+	font-size: 50px;
+	transition: 1s;
+}
+
+#topbtn
+{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 22px;
+	width: 50px;
+	height: 50px;
+	background: #e74c3c;
+	color: white;
+	border: none;
+	cursor: pointer;
+	display: none;
+}

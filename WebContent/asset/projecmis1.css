@@ -1,0 +1,15 @@
+@media (min-width: 800px) and (max-width: 1000px)
+
+{
+
+.formbox button
+{
+	width: 200%;
+	margin-left: 35%;
+}
+
+.forbutt {
+
+	font-size: 70%;
+}
+}

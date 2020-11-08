@@ -1,0 +1,257 @@
+
+
+body{
+	padding: 0%;
+	margin: 0%;
+	background-image: url("/Library_Management/images/lib5.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	background-attachment: fixed;
+	 
+}
+
+
+
+.log{
+	text-align: center;
+	padding: 2%;
+	margin-bottom: 5%;
+	background-color: maroon;
+	box-shadow: 0 5% 10% rgba(0,0,0,.5);
+	background-size: 12%; 
+}
+
+.log h1{ 
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 200%;
+	color: white;
+}
+
+log h2{
+	text-align: center;
+	margin: 30px 40px;
+	color: maroon;
+	padding: 0px 20px;
+}
+
+
+.frm{
+	margin-left:25%;
+	width: 50%;
+	height: 130%;
+	flex-wrap: wrap;
+	display: flex;
+
+
+}
+
+.formbox{
+	width: 100%;
+	padding: 10% 10%;
+	box-sizing: border-box;
+	height: 125%;
+	background: rgb(24,24,30);
+	background-repeat: fixed;
+	background-size: cover; 
+	opacity: 
+	border-color: maroon;
+	border-radius: 1%;
+	margin-bottom: 10%;
+
+}
+
+.formbox table{
+	font-weight: bold;
+	color: white;
+	font-size: 100%;
+	
+}
+
+.formbox input
+{
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top: 5%;
+
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"],
+.formbox input[type="email"],
+.formbox input[type="Date"]
+{
+	border: none;
+	border-bottom: 2px solid maroon;
+	height: 40px;
+	padding-left: 5%;  
+}
+
+.formbox input[type="text"]focus,
+.formbox input[type="password"]focus,
+.formbox input[type="email"]focus,
+.formbox input[type="Date"]focus
+{
+	border-bottom: 2px solid maroon;
+}
+
+formbox input[type="button"]
+{
+	border:none;
+	outline: 40%;
+	color:#fff;
+	background: #262626;
+	font-size: 20%;
+}
+
+formbox input[type="button"]:hover
+{
+	background: #a6af13;
+
+}
+.formbox input[type="submit"]
+{
+	color: #fff;
+	background: teal;
+	font-size: 100%;
+	margin-left: 50%;
+	text-align: center;
+	width: 200%;
+}
+.formbox input[type="submit"]:hover
+{
+	background: maroon;
+	color: black;
+	font-style: bold;
+
+}
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 600px)
+{
+
+.frm{
+	margin-left: 15%;
+	width: 70%;
+	height: 70%;
+	flex-wrap: wrap;
+	display: flex;
+
+	
+}
+
+
+.formbox{
+	width: 100%;
+	padding: 10% 10%;
+	box-sizing: border-box;
+	height: 125%;
+	background: rgb(24,24,30);
+	background-repeat: fixed;
+	background-size: cover; 
+	opacity: 
+	border-color: maroon;
+	border-radius: 1%;
+	margin-bottom: 10%;
+
+}
+
+.log{
+	text-align: center;
+	padding: 2%;
+	margin-bottom: 5%;
+	background-color: maroon;
+	box-shadow: 0 5% 10% rgba(0,0,0,.5);
+	background-size: 12%; 
+}
+
+.log h1{ 
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 100%;
+	color: white;
+}
+
+.formbox table{
+	font-weight: bold;
+	color: white;
+	font-size: 60%;
+	
+}
+
+
+.formbox input
+{
+	width: 70%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"]
+.formbox input[type="email"]
+{
+	border: none;
+	border-bottom: 2px solid maroon;
+	height: 10%;
+	padding-left: 3%;  
+}
+
+.formbox input[type="text"]focus,
+.formbox input[type="password"]focus
+.formbox input[type="email"]focus
+{
+	border-bottom: 2px solid maroon;
+}
+}
+
+@media screen and (max-height: 500px)
+
+{
+
+.formbox{
+	width: 100%;
+	padding: 10% 10%;
+	box-sizing: border-box;
+	height: 100%;
+	background: rgb(24,24,30);
+	background-repeat: fixed;
+	background-size: cover; 
+	opacity: 
+	border-color: maroon;
+	border-radius: 1%;
+	margin-bottom: 10%;
+
+}
+
+.formbox table{
+	font-weight: bold;
+	color: white;
+	font-size: 80%;
+	
+}
+
+.formbox input
+{
+	width: 80%;
+	margin-bottom: 0%;
+	margin-top: 5%;
+
+}
+}
+
+
